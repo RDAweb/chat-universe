@@ -22,7 +22,7 @@ async function generateApiResponse(aiChatBox) {
             body: JSON.stringify({
                 contents: [{
                     "role": "user",
-                    "parts": [{ text: `${userMessage} in 1000<300 words` }]
+                    "parts": [{ text: `${userMessage}` }]
                 }]
             })
         });
